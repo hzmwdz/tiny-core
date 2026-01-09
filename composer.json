@@ -1,0 +1,25 @@
+{
+    "name": "hzmwdz/tiny-core",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanglf63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hzmwdz\\TinyCore\\": "src/"
+        }
+    }
+}
